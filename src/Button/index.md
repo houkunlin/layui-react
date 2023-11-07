@@ -1,3 +1,9 @@
+---
+nav:
+  title: Button 按钮
+  order: 4
+---
+
 # Button 按钮
 
 [官方原文链接](https://layui.dev/docs/2/button/)

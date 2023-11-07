@@ -13,13 +13,13 @@ nav:
 ### 布局
 
 - [ ] [框体 Layout](/components/Layout) 未开始
-- [ ] [栅格 Grid](/components/Grid) 未开始
+- [x] [栅格 Grid](/components/Grid) 组件初步完成，待完善文档示例
 
 ### 通用
 
 - [ ] [颜色 Color](/components/Color) 未开始
 - [x] [按钮 Button](/components/Button) 初步完成
-- [x] [图标 Icon](/components/Icon) 初步完成
+- [x] [图标 Icon](/components/Icon) 组件初步完成，待完善文档示例
 - [ ] [动画 Anim](/components/Anim) 未开始
 
 ### 表单
