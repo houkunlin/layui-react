@@ -1,17 +1,10 @@
-# layui
+# Layui React 版本
 
-[![NPM version](https://img.shields.io/npm/v/test.svg?style=flat)](https://npmjs.org/package/test)
-[![NPM downloads](http://img.shields.io/npm/dm/test.svg?style=flat)](https://npmjs.org/package/test)
-
-layui desc
+Layui React 版本 正在开发中，敬请期待...
 
 ## Usage
 
-TODO
-
-## Options
-
-TODO
+请查看 [组件文档](https://layui-react.pages.dev/)
 
 ## Development
 
