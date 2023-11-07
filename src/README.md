@@ -13,7 +13,7 @@ nav:
 ### 布局
 
 - [ ] [框体 Layout](/components/Layout) 未开始
-- [x] [栅格 Grid](/components/Grid) 组件初步完成，待完善文档示例
+- [x] [栅格 Grid](/components/Grid) 初步完成
 
 ### 通用
 

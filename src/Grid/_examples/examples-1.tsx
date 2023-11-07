@@ -5,7 +5,7 @@ import './styles.less';
 export default () => {
   return (
     <>
-      <Row gutter={16}>
+      <Row gutter={0}>
         <Col span={6}>
           <div className={'grid-demo grid-demo-bg1'}>6/12</div>
         </Col>
@@ -13,8 +13,8 @@ export default () => {
           <div className={'grid-demo grid-demo-bg2'}>6/12</div>
         </Col>
       </Row>
-      <div style={{ marginTop: 10 }}></div>
-      <Row gutter={16}>
+      <div style={{ marginBlockStart: 10 }}></div>
+      <Row gutter={0}>
         <Col span={3}>
           <div className={'grid-demo grid-demo-bg1'}>3/12</div>
         </Col>

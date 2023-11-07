@@ -7,13 +7,17 @@ export type RowProps = {
 } & React.HTMLAttributes<HTMLDivElement>;
 
 function InternalRow(props: RowProps) {
-  const { gutter, ...restProps } = props;
+  const { gutter, className, ...restProps } = props;
 
   const _className = useMemo(() => {
-    return classnames('layui-row', {
-      [`layui-col-space${gutter}`]: gutter,
-    });
-  }, [gutter]);
+    return classnames(
+      'layui-row',
+      {
+        [`layui-col-space${gutter}`]: gutter,
+      },
+      className,
+    );
+  }, [gutter, className]);
 
   return <div {...restProps} className={_className} />;
 }

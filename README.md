@@ -6,6 +6,8 @@ Layui React 版本 正在开发中，敬请期待...
 
 请查看 [组件文档](https://layui-react.pages.dev/)
 
+完成进度请查看 [组件完成进度](./src/README.md)
+
 ## Development
 
 ```bash
