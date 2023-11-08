@@ -20,7 +20,7 @@ nav:
 - [ ] [颜色 Color](/components/Color) 未开始
 - [x] [按钮 Button](/components/Button) 初步完成
 - [x] [图标 Icon](/components/Icon) 组件初步完成，待完善文档示例
-- [ ] [动画 Anim](/components/Anim) 未开始
+- [x] [动画 Anim](/components/Anim) 初步完成
 
 ### 表单
 

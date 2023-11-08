@@ -400,10 +400,14 @@ export type IconProps = {
    * @description 图标名称
    */
   icon: IconName;
+  /**
+   * 旋转循环
+   */
+  rotateLoop?: boolean;
 } & React.HTMLAttributes<HTMLSpanElement>;
 
 function InternalIcon(props: IconProps) {
-  const { className, icon, children, ...restProps } = props;
+  const { className, icon, children, rotateLoop, ...restProps } = props;
   const _className = useMemo(() => {
     let _icon: string = icon;
     if (_icon.startsWith('layui-icon-')) {
@@ -413,10 +417,11 @@ function InternalIcon(props: IconProps) {
       'layui-icon',
       {
         [`layui-icon-${_icon}`]: _icon,
+        [`layui-anim layui-anim-rotate layui-anim-loop`]: rotateLoop,
       },
       className,
     );
-  }, [className, icon]);
+  }, [className, icon, rotateLoop]);
 
   return (
     <span {...restProps} className={_className}>
